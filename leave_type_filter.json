@@ -1,0 +1,17 @@
+{
+  "filter_id": "leave_type_filter",
+  "filter_name": "Leave Type Selector",
+  "type": "multi_select",
+  "target_column": "leave_type_code",
+  "default_value": ["ALL"],
+  "options": [
+    { "value": "ALL", "label": "All Leave Categories (6 Types)" },
+    { "value": "EL", "label": "Earned (Privilege) Leave — 15 Days Annual Quota" },
+    { "value": "CL", "label": "Casual Leave — 12 Days Annual Quota" },
+    { "value": "SL", "label": "Sick Leave — 12 Days Annual Quota" },
+    { "value": "ML", "label": "Maternity Leave — 26 Weeks Statutory" },
+    { "value": "BL", "label": "Bereavement Leave — 3 Days Quota" },
+    { "value": "LOP", "label": "Loss of Pay (Unpaid Absence)" }
+  ],
+  "description": "Filters leave breakdown and weekday utilization charts by statutory or company policy category."
+}

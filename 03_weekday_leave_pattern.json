@@ -1,0 +1,45 @@
+{
+  "chart_id": "03_weekday_leave_pattern",
+  "chart_title": "Leave and Absence Distribution by Day of Week",
+  "description": "Analysis of 3,441 leave requests and 6,546 active working leave days across Monday through Friday.",
+  "weekdays": [
+    {
+      "weekday": "Monday",
+      "leave_start_count": 576,
+      "leave_applied_count": 512,
+      "active_leave_days": 1271,
+      "share_of_active_leaves_pct": 19.42
+    },
+    {
+      "weekday": "Tuesday",
+      "leave_start_count": 599,
+      "leave_applied_count": 541,
+      "active_leave_days": 1310,
+      "share_of_active_leaves_pct": 20.01
+    },
+    {
+      "weekday": "Wednesday",
+      "leave_start_count": 613,
+      "leave_applied_count": 459,
+      "active_leave_days": 1316,
+      "share_of_active_leaves_pct": 20.1
+    },
+    {
+      "weekday": "Thursday",
+      "leave_start_count": 652,
+      "leave_applied_count": 344,
+      "active_leave_days": 1316,
+      "share_of_active_leaves_pct": 20.1
+    },
+    {
+      "weekday": "Friday",
+      "leave_start_count": 648,
+      "leave_applied_count": 361,
+      "active_leave_days": 1333,
+      "share_of_active_leaves_pct": 20.36
+    }
+  ],
+  "peak_leave_start_day": "Friday (721 requests)",
+  "lowest_leave_start_day": "Monday (648 requests)",
+  "takeaway": "Leave requests disproportionately initiate on Friday (721 requests) and Thursday (713 requests), reflecting bridge-weekend leave behavior, with Friday also carrying the highest active leave load (20.36% of all non-maternity leave days)."
+}

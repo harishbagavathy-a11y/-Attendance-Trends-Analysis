@@ -1,0 +1,22 @@
+{
+  "filter_id": "department_filter",
+  "filter_name": "Department Selector",
+  "type": "multi_select",
+  "target_column": "department_id",
+  "default_value": ["ALL"],
+  "options": [
+    { "value": "ALL", "label": "All Departments (11 Business Units)" },
+    { "value": "D01", "label": "Engineering (CC-100)" },
+    { "value": "D02", "label": "Product & Design (CC-200)" },
+    { "value": "D03", "label": "Data & AI (CC-300)" },
+    { "value": "D04", "label": "Sales (CC-400)" },
+    { "value": "D05", "label": "Marketing (CC-500)" },
+    { "value": "D06", "label": "Customer Support (CC-600)" },
+    { "value": "D07", "label": "Human Resources (CC-700)" },
+    { "value": "D08", "label": "Finance & Accounts (CC-800)" },
+    { "value": "D09", "label": "Operations & IT (CC-900)" },
+    { "value": "D10", "label": "Legal & Compliance (CC-950)" },
+    { "value": "D00", "label": "Executive Office (CC-000)" }
+  ],
+  "description": "Filters attendance, lateness, leave, and AI anomaly metrics by organizational unit."
+}

@@ -1,0 +1,222 @@
+{
+  "chart_id": "04_leave_type_breakdown",
+  "chart_title": "Leave Consumption and Approval Mix by Leave Type",
+  "description": "Breakdown of 3,441 leave requests across 6 statutory and company categories.",
+  "leave_types": [
+    {
+      "leave_type_code": "EL",
+      "leave_type_name": "Earned (Privilege) Leave",
+      "pay_type": "Paid",
+      "total_requests": 1266,
+      "total_days": 2613.0,
+      "approved_days": 2336.0,
+      "approved_requests": 1130,
+      "approval_rate_pct": 89.3
+    },
+    {
+      "leave_type_code": "CL",
+      "leave_type_name": "Casual Leave",
+      "pay_type": "Paid",
+      "total_requests": 1082,
+      "total_days": 2226.0,
+      "approved_days": 1995.0,
+      "approved_requests": 977,
+      "approval_rate_pct": 90.3
+    },
+    {
+      "leave_type_code": "SL",
+      "leave_type_name": "Sick Leave",
+      "pay_type": "Paid",
+      "total_requests": 933,
+      "total_days": 1962.0,
+      "approved_days": 1769.0,
+      "approved_requests": 836,
+      "approval_rate_pct": 89.6
+    },
+    {
+      "leave_type_code": "ML",
+      "leave_type_name": "Maternity Leave",
+      "pay_type": "Paid",
+      "total_requests": 7,
+      "total_days": 910.0,
+      "approved_days": 910.0,
+      "approved_requests": 7,
+      "approval_rate_pct": 100.0
+    },
+    {
+      "leave_type_code": "BL",
+      "leave_type_name": "Bereavement Leave",
+      "pay_type": "Paid",
+      "total_requests": 92,
+      "total_days": 153.0,
+      "approved_days": 137.0,
+      "approved_requests": 80,
+      "approval_rate_pct": 87.0
+    },
+    {
+      "leave_type_code": "LOP",
+      "leave_type_name": "Loss of Pay",
+      "pay_type": "Unpaid",
+      "total_requests": 61,
+      "total_days": 135.0,
+      "approved_days": 129.0,
+      "approved_requests": 58,
+      "approval_rate_pct": 95.1
+    }
+  ],
+  "status_breakdown": [
+    {
+      "leave_type_code": "BL",
+      "leave_type_name": "Bereavement Leave",
+      "pay_type": "Paid",
+      "status": "Approved",
+      "total_requests": 80,
+      "total_days": 137.0
+    },
+    {
+      "leave_type_code": "BL",
+      "leave_type_name": "Bereavement Leave",
+      "pay_type": "Paid",
+      "status": "Cancelled",
+      "total_requests": 6,
+      "total_days": 9.0
+    },
+    {
+      "leave_type_code": "BL",
+      "leave_type_name": "Bereavement Leave",
+      "pay_type": "Paid",
+      "status": "Rejected",
+      "total_requests": 6,
+      "total_days": 7.0
+    },
+    {
+      "leave_type_code": "CL",
+      "leave_type_name": "Casual Leave",
+      "pay_type": "Paid",
+      "status": "Approved",
+      "total_requests": 977,
+      "total_days": 1995.0
+    },
+    {
+      "leave_type_code": "CL",
+      "leave_type_name": "Casual Leave",
+      "pay_type": "Paid",
+      "status": "Cancelled",
+      "total_requests": 32,
+      "total_days": 66.0
+    },
+    {
+      "leave_type_code": "CL",
+      "leave_type_name": "Casual Leave",
+      "pay_type": "Paid",
+      "status": "Pending",
+      "total_requests": 9,
+      "total_days": 25.0
+    },
+    {
+      "leave_type_code": "CL",
+      "leave_type_name": "Casual Leave",
+      "pay_type": "Paid",
+      "status": "Rejected",
+      "total_requests": 64,
+      "total_days": 140.0
+    },
+    {
+      "leave_type_code": "EL",
+      "leave_type_name": "Earned (Privilege) Leave",
+      "pay_type": "Paid",
+      "status": "Approved",
+      "total_requests": 1130,
+      "total_days": 2336.0
+    },
+    {
+      "leave_type_code": "EL",
+      "leave_type_name": "Earned (Privilege) Leave",
+      "pay_type": "Paid",
+      "status": "Cancelled",
+      "total_requests": 39,
+      "total_days": 89.0
+    },
+    {
+      "leave_type_code": "EL",
+      "leave_type_name": "Earned (Privilege) Leave",
+      "pay_type": "Paid",
+      "status": "Pending",
+      "total_requests": 17,
+      "total_days": 30.0
+    },
+    {
+      "leave_type_code": "EL",
+      "leave_type_name": "Earned (Privilege) Leave",
+      "pay_type": "Paid",
+      "status": "Rejected",
+      "total_requests": 80,
+      "total_days": 158.0
+    },
+    {
+      "leave_type_code": "LOP",
+      "leave_type_name": "Loss of Pay",
+      "pay_type": "Unpaid",
+      "status": "Approved",
+      "total_requests": 58,
+      "total_days": 129.0
+    },
+    {
+      "leave_type_code": "LOP",
+      "leave_type_name": "Loss of Pay",
+      "pay_type": "Unpaid",
+      "status": "Cancelled",
+      "total_requests": 1,
+      "total_days": 2.0
+    },
+    {
+      "leave_type_code": "LOP",
+      "leave_type_name": "Loss of Pay",
+      "pay_type": "Unpaid",
+      "status": "Rejected",
+      "total_requests": 2,
+      "total_days": 4.0
+    },
+    {
+      "leave_type_code": "ML",
+      "leave_type_name": "Maternity Leave",
+      "pay_type": "Paid",
+      "status": "Approved",
+      "total_requests": 7,
+      "total_days": 910.0
+    },
+    {
+      "leave_type_code": "SL",
+      "leave_type_name": "Sick Leave",
+      "pay_type": "Paid",
+      "status": "Approved",
+      "total_requests": 836,
+      "total_days": 1769.0
+    },
+    {
+      "leave_type_code": "SL",
+      "leave_type_name": "Sick Leave",
+      "pay_type": "Paid",
+      "status": "Cancelled",
+      "total_requests": 31,
+      "total_days": 57.0
+    },
+    {
+      "leave_type_code": "SL",
+      "leave_type_name": "Sick Leave",
+      "pay_type": "Paid",
+      "status": "Pending",
+      "total_requests": 8,
+      "total_days": 11.0
+    },
+    {
+      "leave_type_code": "SL",
+      "leave_type_name": "Sick Leave",
+      "pay_type": "Paid",
+      "status": "Rejected",
+      "total_requests": 58,
+      "total_days": 125.0
+    }
+  ],
+  "takeaway": "Earned Leave (EL) accounts for 2,613 total days (89.4% approved), followed by Casual Leave (CL, 2,226 days) and Sick Leave (SL, 1,962 days); Maternity Leave (ML) represents long-tail statutory leave with 910 approved days across 7 employees."
+}

@@ -1,0 +1,18 @@
+{
+  "filter_id": "date_range_filter",
+  "filter_name": "Reporting Date Range",
+  "type": "date_range",
+  "target_column": "year_month",
+  "min_date": "2025-04",
+  "max_date": "2026-09",
+  "default_start": "2025-04",
+  "default_end": "2026-09",
+  "presets": [
+    { "label": "Full History (18 Months)", "start": "2025-04", "end": "2026-09" },
+    { "label": "FY 2025-26 Full Year", "start": "2025-04", "end": "2026-03" },
+    { "label": "FY 2026-27 YTD (H1)", "start": "2026-04", "end": "2026-09" },
+    { "label": "Last 6 Months (Apr–Sep 2026)", "start": "2026-04", "end": "2026-09" },
+    { "label": "Festival & Year-End Window (Oct–Dec 2025)", "start": "2025-10", "end": "2025-12" }
+  ],
+  "description": "Restricts time-series charts, rolling calculations, and anomaly evaluations to selected monthly periods."
+}

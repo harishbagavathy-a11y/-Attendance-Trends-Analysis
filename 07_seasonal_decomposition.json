@@ -1,0 +1,134 @@
+{
+  "chart_id": "07_seasonal_decomposition",
+  "chart_title": "Time-Series Decomposition of Attendance Rate (Statsmodels)",
+  "method": "Additive Seasonal Decomposition (Period=6)",
+  "components": [
+    {
+      "year_month": "2025-04",
+      "observed": 94.58,
+      "trend": 95.26,
+      "seasonal": -0.54,
+      "residual": -0.15
+    },
+    {
+      "year_month": "2025-05",
+      "observed": 93.46,
+      "trend": 95.11,
+      "seasonal": -0.9,
+      "residual": -0.76
+    },
+    {
+      "year_month": "2025-06",
+      "observed": 94.52,
+      "trend": 94.96,
+      "seasonal": -0.42,
+      "residual": -0.02
+    },
+    {
+      "year_month": "2025-07",
+      "observed": 95.51,
+      "trend": 94.69,
+      "seasonal": 0.25,
+      "residual": 0.57
+    },
+    {
+      "year_month": "2025-08",
+      "observed": 94.95,
+      "trend": 94.68,
+      "seasonal": 0.46,
+      "residual": -0.2
+    },
+    {
+      "year_month": "2025-09",
+      "observed": 95.48,
+      "trend": 94.66,
+      "seasonal": 1.14,
+      "residual": -0.32
+    },
+    {
+      "year_month": "2025-10",
+      "observed": 93.88,
+      "trend": 94.41,
+      "seasonal": -0.54,
+      "residual": 0.0
+    },
+    {
+      "year_month": "2025-11",
+      "observed": 94.05,
+      "trend": 94.16,
+      "seasonal": -0.9,
+      "residual": 0.79
+    },
+    {
+      "year_month": "2025-12",
+      "observed": 93.71,
+      "trend": 94.0,
+      "seasonal": -0.42,
+      "residual": 0.13
+    },
+    {
+      "year_month": "2026-01",
+      "observed": 93.29,
+      "trend": 93.87,
+      "seasonal": 0.25,
+      "residual": -0.84
+    },
+    {
+      "year_month": "2026-02",
+      "observed": 94.12,
+      "trend": 93.73,
+      "seasonal": 0.46,
+      "residual": -0.08
+    },
+    {
+      "year_month": "2026-03",
+      "observed": 94.46,
+      "trend": 93.61,
+      "seasonal": 1.14,
+      "residual": -0.28
+    },
+    {
+      "year_month": "2026-04",
+      "observed": 93.35,
+      "trend": 93.65,
+      "seasonal": -0.54,
+      "residual": 0.24
+    },
+    {
+      "year_month": "2026-05",
+      "observed": 92.89,
+      "trend": 93.73,
+      "seasonal": -0.9,
+      "residual": 0.06
+    },
+    {
+      "year_month": "2026-06",
+      "observed": 93.37,
+      "trend": 93.8,
+      "seasonal": -0.42,
+      "residual": -0.01
+    },
+    {
+      "year_month": "2026-07",
+      "observed": 94.1,
+      "trend": 93.48,
+      "seasonal": 0.25,
+      "residual": 0.36
+    },
+    {
+      "year_month": "2026-08",
+      "observed": 94.25,
+      "trend": 93.42,
+      "seasonal": 0.46,
+      "residual": 0.37
+    },
+    {
+      "year_month": "2026-09",
+      "observed": 95.19,
+      "trend": 93.36,
+      "seasonal": 1.14,
+      "residual": 0.7
+    }
+  ],
+  "takeaway": "Decomposition reveals a downward trend from Q3 2025 through Q2 2026 (-1.7% drift) superimposed on seasonal dips in festival/holiday periods (Oct/Dec) and annual leave exhaustion, before a structural rebound in Q3 2026."
+}

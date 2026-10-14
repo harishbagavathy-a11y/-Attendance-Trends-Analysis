@@ -1,0 +1,186 @@
+{
+  "chart_id": "06_ai_anomaly_distribution",
+  "chart_title": "AI/ML Anomaly Sample Overlay & Reason Code Mix",
+  "total_attendance_anomalies": 221,
+  "reason_codes": [
+    {
+      "reason_code": "PATTERN_SHIFT",
+      "count": 125,
+      "avg_score": 0.661,
+      "pct_share": 56.6
+    },
+    {
+      "reason_code": "NO_ATTENDANCE",
+      "count": 50,
+      "avg_score": 0.887,
+      "pct_share": 22.6
+    },
+    {
+      "reason_code": "LONG_UNPAID_ABSENCE",
+      "count": 43,
+      "avg_score": 0.818,
+      "pct_share": 19.5
+    },
+    {
+      "reason_code": "FREQUENT_LATE",
+      "count": 3,
+      "avg_score": 0.6,
+      "pct_share": 1.4
+    }
+  ],
+  "department_distribution": [
+    {
+      "department_id": "D01",
+      "department_name": "Engineering",
+      "anomaly_count": 63,
+      "avg_score": 0.717
+    },
+    {
+      "department_id": "D06",
+      "department_name": "Customer Support",
+      "anomaly_count": 48,
+      "avg_score": 0.757
+    },
+    {
+      "department_id": "D02",
+      "department_name": "Product & Design",
+      "anomaly_count": 23,
+      "avg_score": 0.77
+    },
+    {
+      "department_id": "D07",
+      "department_name": "Human Resources",
+      "anomaly_count": 19,
+      "avg_score": 0.743
+    },
+    {
+      "department_id": "D08",
+      "department_name": "Finance & Accounts",
+      "anomaly_count": 19,
+      "avg_score": 0.743
+    },
+    {
+      "department_id": "D09",
+      "department_name": "Operations & IT",
+      "anomaly_count": 15,
+      "avg_score": 0.694
+    },
+    {
+      "department_id": "D03",
+      "department_name": "Data & AI",
+      "anomaly_count": 13,
+      "avg_score": 0.769
+    },
+    {
+      "department_id": "D04",
+      "department_name": "Sales",
+      "anomaly_count": 12,
+      "avg_score": 0.731
+    },
+    {
+      "department_id": "D10",
+      "department_name": "Legal & Compliance",
+      "anomaly_count": 7,
+      "avg_score": 0.809
+    },
+    {
+      "department_id": "D05",
+      "department_name": "Marketing",
+      "anomaly_count": 2,
+      "avg_score": 0.842
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2025-04",
+      "ai_anomaly_count": 12,
+      "avg_anomaly_score": 0.71
+    },
+    {
+      "year_month": "2025-05",
+      "ai_anomaly_count": 7,
+      "avg_anomaly_score": 0.651
+    },
+    {
+      "year_month": "2025-06",
+      "ai_anomaly_count": 8,
+      "avg_anomaly_score": 0.678
+    },
+    {
+      "year_month": "2025-07",
+      "ai_anomaly_count": 12,
+      "avg_anomaly_score": 0.714
+    },
+    {
+      "year_month": "2025-08",
+      "ai_anomaly_count": 10,
+      "avg_anomaly_score": 0.708
+    },
+    {
+      "year_month": "2025-09",
+      "ai_anomaly_count": 10,
+      "avg_anomaly_score": 0.745
+    },
+    {
+      "year_month": "2025-10",
+      "ai_anomaly_count": 11,
+      "avg_anomaly_score": 0.805
+    },
+    {
+      "year_month": "2025-11",
+      "ai_anomaly_count": 14,
+      "avg_anomaly_score": 0.724
+    },
+    {
+      "year_month": "2025-12",
+      "ai_anomaly_count": 14,
+      "avg_anomaly_score": 0.753
+    },
+    {
+      "year_month": "2026-01",
+      "ai_anomaly_count": 13,
+      "avg_anomaly_score": 0.758
+    },
+    {
+      "year_month": "2026-02",
+      "ai_anomaly_count": 13,
+      "avg_anomaly_score": 0.724
+    },
+    {
+      "year_month": "2026-03",
+      "ai_anomaly_count": 14,
+      "avg_anomaly_score": 0.737
+    },
+    {
+      "year_month": "2026-04",
+      "ai_anomaly_count": 7,
+      "avg_anomaly_score": 0.753
+    },
+    {
+      "year_month": "2026-05",
+      "ai_anomaly_count": 16,
+      "avg_anomaly_score": 0.7
+    },
+    {
+      "year_month": "2026-06",
+      "ai_anomaly_count": 17,
+      "avg_anomaly_score": 0.769
+    },
+    {
+      "year_month": "2026-07",
+      "ai_anomaly_count": 22,
+      "avg_anomaly_score": 0.751
+    },
+    {
+      "year_month": "2026-08",
+      "ai_anomaly_count": 11,
+      "avg_anomaly_score": 0.821
+    },
+    {
+      "year_month": "2026-09",
+      "ai_anomaly_count": 10,
+      "avg_anomaly_score": 0.814
+    }
+  ],
+  "takeaway": "The AI model flagged 221 attendance anomaly instances (peaking in July 2026 with 22 flags); 56.6% represent PATTERN_SHIFT (sudden drop in habitual presence), 22.6% NO_ATTENDANCE (zero days logged), and 19.5% LONG_UNPAID_ABSENCE."
+}

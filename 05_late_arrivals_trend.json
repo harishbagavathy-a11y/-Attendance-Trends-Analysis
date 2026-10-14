@@ -1,0 +1,77 @@
+{
+  "chart_id": "05_late_arrivals_trend",
+  "chart_title": "Monthly Late Arrivals Volume and Rate",
+  "series": {
+    "months": [
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02",
+      "2026-03",
+      "2026-04",
+      "2026-05",
+      "2026-06",
+      "2026-07",
+      "2026-08",
+      "2026-09"
+    ],
+    "late_arrivals": [
+      468,
+      497,
+      534,
+      556,
+      489,
+      568,
+      537,
+      495,
+      573,
+      489,
+      519,
+      583,
+      518,
+      476,
+      537,
+      611,
+      569,
+      618
+    ],
+    "late_arrival_rate_pct": [
+      6.51,
+      6.68,
+      7.03,
+      6.56,
+      6.94,
+      6.87,
+      7.27,
+      6.7,
+      7.02,
+      6.91,
+      6.75,
+      7.53,
+      6.8,
+      6.3,
+      6.36,
+      6.76,
+      6.77,
+      7.14
+    ]
+  },
+  "highest_late_month": {
+    "month": "2026-03",
+    "late_count": 583,
+    "late_rate_pct": 7.53
+  },
+  "lowest_late_month": {
+    "month": "2026-05",
+    "late_count": 476,
+    "late_rate_pct": 6.3
+  },
+  "takeaway": "Late arrivals averaged 538 per month company-wide (6.85% late arrival rate), spiking in March 2026 (7.53%) and October 2025 (7.27%), driven by shift coordination in Operations & IT and Customer Support."
+}

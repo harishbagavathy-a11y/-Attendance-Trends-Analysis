@@ -1,0 +1,1096 @@
+[
+  {
+    "chart_id": "01_monthly_attendance_trend",
+    "chart_title": "Monthly Attendance Rate Trend & 3-Month Rolling Average",
+    "metric": "attendance_rate_pct",
+    "unit": "%",
+    "date_range": "2025-04 to 2026-09 (18 Months)",
+    "series": {
+      "months": [
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12",
+        "2026-01",
+        "2026-02",
+        "2026-03",
+        "2026-04",
+        "2026-05",
+        "2026-06",
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ],
+      "attendance_rate": [
+        94.58,
+        93.46,
+        94.52,
+        95.51,
+        94.95,
+        95.48,
+        93.88,
+        94.05,
+        93.71,
+        93.29,
+        94.12,
+        94.46,
+        93.35,
+        92.89,
+        93.37,
+        94.1,
+        94.25,
+        95.19
+      ],
+      "rolling_3m_average": [
+        94.58,
+        94.02,
+        94.19,
+        94.5,
+        94.99,
+        95.31,
+        94.77,
+        94.47,
+        93.88,
+        93.68,
+        93.71,
+        93.96,
+        93.98,
+        93.57,
+        93.2,
+        93.45,
+        93.91,
+        94.51
+      ],
+      "mom_change": [
+        0.0,
+        -1.12,
+        1.06,
+        0.99,
+        -0.56,
+        0.53,
+        -1.6,
+        0.17,
+        -0.34,
+        -0.42,
+        0.83,
+        0.34,
+        -1.11,
+        -0.46,
+        0.48,
+        0.73,
+        0.15,
+        0.94
+      ],
+      "ai_flagged_anomalies": [
+        12,
+        7,
+        8,
+        12,
+        10,
+        10,
+        11,
+        14,
+        14,
+        13,
+        13,
+        14,
+        7,
+        16,
+        17,
+        22,
+        11,
+        10
+      ],
+      "total_present_days": [
+        7184,
+        7445,
+        7594,
+        8480,
+        7047,
+        8266,
+        7389,
+        7387,
+        8165,
+        7076,
+        7693,
+        7746,
+        7623,
+        7551,
+        8449,
+        9042,
+        8403,
+        8655
+      ],
+      "total_scheduled_days": [
+        7610,
+        7984,
+        8053,
+        8894,
+        7437,
+        8677,
+        7881,
+        7872,
+        8725,
+        7600,
+        8188,
+        8214,
+        8178,
+        8151,
+        9069,
+        9632,
+        8939,
+        9111
+      ]
+    },
+    "annotations": [
+      {
+        "period": "2025-07",
+        "label": "Summer Peak (95.51%)",
+        "type": "peak"
+      },
+      {
+        "period": "2025-12",
+        "label": "Year-End Drop (93.71%) \u2014 14 AI Anomalies",
+        "type": "drop"
+      },
+      {
+        "period": "2026-05",
+        "label": "Trough Low (92.89%) \u2014 Summer Slump",
+        "type": "trough"
+      },
+      {
+        "period": "2026-07",
+        "label": "Peak Anomaly Surge (22 AI Flags)",
+        "type": "anomaly_spike"
+      },
+      {
+        "period": "2026-09",
+        "label": "September Rebound (95.19%)",
+        "type": "rebound"
+      }
+    ],
+    "takeaway": "Attendance peaked at 95.51% in July 2025 before softening into year-end (93.71% in Dec 2025) and hitting an annual low of 92.89% in May 2026, followed by a strong recovery to 95.19% by September 2026."
+  },
+  {
+    "chart_id": "02_department_attendance_ranking",
+    "chart_title": "Department Attendance Rate & Late Arrival Rate",
+    "description": "Ranking of 11 operational departments comparing attendance integrity against late arrival patterns.",
+    "highest_department": {
+      "department_id": "D03",
+      "department_name": "Data & AI",
+      "attendance_rate_pct": 95.0
+    },
+    "lowest_department": {
+      "department_id": "D08",
+      "department_name": "Finance & Accounts",
+      "attendance_rate_pct": 90.82
+    },
+    "departments": [
+      {
+        "department_id": "D03",
+        "department_name": "Data & AI",
+        "cost_center": "CC-300",
+        "distinct_employees": 61,
+        "employee_months": 911,
+        "scheduled_days": 18697,
+        "present_days": 17732,
+        "wfh_days": 9842,
+        "half_days_unpaid": 59,
+        "paid_leave_days": 765,
+        "unpaid_absence_days": 141,
+        "late_arrivals": 1185,
+        "avg_hours_worked": 8.34,
+        "attendance_rate_pct": 95.0,
+        "late_arrival_rate_pct": 6.68,
+        "wfh_rate_pct": 55.5
+      },
+      {
+        "department_id": "D04",
+        "department_name": "Sales",
+        "cost_center": "CC-400",
+        "distinct_employees": 56,
+        "employee_months": 772,
+        "scheduled_days": 15766,
+        "present_days": 14948,
+        "wfh_days": 5450,
+        "half_days_unpaid": 59,
+        "paid_leave_days": 616,
+        "unpaid_absence_days": 143,
+        "late_arrivals": 946,
+        "avg_hours_worked": 8.33,
+        "attendance_rate_pct": 95.0,
+        "late_arrival_rate_pct": 6.33,
+        "wfh_rate_pct": 36.46
+      },
+      {
+        "department_id": "D01",
+        "department_name": "Engineering",
+        "cost_center": "CC-100",
+        "distinct_employees": 201,
+        "employee_months": 2765,
+        "scheduled_days": 56500,
+        "present_days": 53305,
+        "wfh_days": 28630,
+        "half_days_unpaid": 232,
+        "paid_leave_days": 2523,
+        "unpaid_absence_days": 440,
+        "late_arrivals": 3697,
+        "avg_hours_worked": 8.3,
+        "attendance_rate_pct": 94.55,
+        "late_arrival_rate_pct": 6.94,
+        "wfh_rate_pct": 53.71
+      },
+      {
+        "department_id": "D05",
+        "department_name": "Marketing",
+        "cost_center": "CC-500",
+        "distinct_employees": 14,
+        "employee_months": 224,
+        "scheduled_days": 4607,
+        "present_days": 4349,
+        "wfh_days": 1565,
+        "half_days_unpaid": 10,
+        "paid_leave_days": 213,
+        "unpaid_absence_days": 35,
+        "late_arrivals": 296,
+        "avg_hours_worked": 8.29,
+        "attendance_rate_pct": 94.51,
+        "late_arrival_rate_pct": 6.81,
+        "wfh_rate_pct": 35.99
+      },
+      {
+        "department_id": "D10",
+        "department_name": "Legal & Compliance",
+        "cost_center": "CC-950",
+        "distinct_employees": 12,
+        "employee_months": 170,
+        "scheduled_days": 3487,
+        "present_days": 3284,
+        "wfh_days": 563,
+        "half_days_unpaid": 18,
+        "paid_leave_days": 133,
+        "unpaid_absence_days": 52,
+        "late_arrivals": 242,
+        "avg_hours_worked": 8.29,
+        "attendance_rate_pct": 94.44,
+        "late_arrival_rate_pct": 7.37,
+        "wfh_rate_pct": 17.14
+      },
+      {
+        "department_id": "D09",
+        "department_name": "Operations & IT",
+        "cost_center": "CC-900",
+        "distinct_employees": 39,
+        "employee_months": 501,
+        "scheduled_days": 10274,
+        "present_days": 9644,
+        "wfh_days": 2871,
+        "half_days_unpaid": 31,
+        "paid_leave_days": 518,
+        "unpaid_absence_days": 81,
+        "late_arrivals": 804,
+        "avg_hours_worked": 8.39,
+        "attendance_rate_pct": 94.02,
+        "late_arrival_rate_pct": 8.34,
+        "wfh_rate_pct": 29.77
+      },
+      {
+        "department_id": "D06",
+        "department_name": "Customer Support",
+        "cost_center": "CC-600",
+        "distinct_employees": 70,
+        "employee_months": 930,
+        "scheduled_days": 19040,
+        "present_days": 17778,
+        "wfh_days": 3007,
+        "half_days_unpaid": 83,
+        "paid_leave_days": 999,
+        "unpaid_absence_days": 180,
+        "late_arrivals": 1168,
+        "avg_hours_worked": 8.37,
+        "attendance_rate_pct": 93.59,
+        "late_arrival_rate_pct": 6.57,
+        "wfh_rate_pct": 16.91
+      },
+      {
+        "department_id": "D02",
+        "department_name": "Product & Design",
+        "cost_center": "CC-200",
+        "distinct_employees": 32,
+        "employee_months": 457,
+        "scheduled_days": 9361,
+        "present_days": 8732,
+        "wfh_days": 3380,
+        "half_days_unpaid": 31,
+        "paid_leave_days": 504,
+        "unpaid_absence_days": 94,
+        "late_arrivals": 586,
+        "avg_hours_worked": 8.18,
+        "attendance_rate_pct": 93.45,
+        "late_arrival_rate_pct": 6.71,
+        "wfh_rate_pct": 38.71
+      },
+      {
+        "department_id": "D00",
+        "department_name": "Executive Office",
+        "cost_center": "CC-000",
+        "distinct_employees": 1,
+        "employee_months": 18,
+        "scheduled_days": 374,
+        "present_days": 347,
+        "wfh_days": 13,
+        "half_days_unpaid": 2,
+        "paid_leave_days": 18,
+        "unpaid_absence_days": 7,
+        "late_arrivals": 11,
+        "avg_hours_worked": 8.17,
+        "attendance_rate_pct": 93.05,
+        "late_arrival_rate_pct": 3.17,
+        "wfh_rate_pct": 3.75
+      },
+      {
+        "department_id": "D07",
+        "department_name": "Human Resources",
+        "cost_center": "CC-700",
+        "distinct_employees": 23,
+        "employee_months": 298,
+        "scheduled_days": 6033,
+        "present_days": 5571,
+        "wfh_days": 1625,
+        "half_days_unpaid": 20,
+        "paid_leave_days": 377,
+        "unpaid_absence_days": 65,
+        "late_arrivals": 351,
+        "avg_hours_worked": 8.28,
+        "attendance_rate_pct": 92.51,
+        "late_arrival_rate_pct": 6.3,
+        "wfh_rate_pct": 29.17
+      },
+      {
+        "department_id": "D08",
+        "department_name": "Finance & Accounts",
+        "cost_center": "CC-800",
+        "distinct_employees": 21,
+        "employee_months": 297,
+        "scheduled_days": 6076,
+        "present_days": 5505,
+        "wfh_days": 2185,
+        "half_days_unpaid": 27,
+        "paid_leave_days": 472,
+        "unpaid_absence_days": 72,
+        "late_arrivals": 351,
+        "avg_hours_worked": 8.11,
+        "attendance_rate_pct": 90.82,
+        "late_arrival_rate_pct": 6.38,
+        "wfh_rate_pct": 39.69
+      }
+    ],
+    "takeaway": "Sales and Data & AI tie for the highest attendance rate at 95.00%, whereas Finance & Accounts lags at 90.82% due to concentrated leave during closing cycles; Operations & IT exhibits the highest late arrival rate at 8.34%."
+  },
+  {
+    "chart_id": "03_weekday_leave_pattern",
+    "chart_title": "Leave and Absence Distribution by Day of Week",
+    "description": "Analysis of 3,441 leave requests and 6,546 active working leave days across Monday through Friday.",
+    "weekdays": [
+      {
+        "weekday": "Monday",
+        "leave_start_count": 576,
+        "leave_applied_count": 512,
+        "active_leave_days": 1271,
+        "share_of_active_leaves_pct": 19.42
+      },
+      {
+        "weekday": "Tuesday",
+        "leave_start_count": 599,
+        "leave_applied_count": 541,
+        "active_leave_days": 1310,
+        "share_of_active_leaves_pct": 20.01
+      },
+      {
+        "weekday": "Wednesday",
+        "leave_start_count": 613,
+        "leave_applied_count": 459,
+        "active_leave_days": 1316,
+        "share_of_active_leaves_pct": 20.1
+      },
+      {
+        "weekday": "Thursday",
+        "leave_start_count": 652,
+        "leave_applied_count": 344,
+        "active_leave_days": 1316,
+        "share_of_active_leaves_pct": 20.1
+      },
+      {
+        "weekday": "Friday",
+        "leave_start_count": 648,
+        "leave_applied_count": 361,
+        "active_leave_days": 1333,
+        "share_of_active_leaves_pct": 20.36
+      }
+    ],
+    "peak_leave_start_day": "Friday (721 requests)",
+    "lowest_leave_start_day": "Monday (648 requests)",
+    "takeaway": "Leave requests disproportionately initiate on Friday (721 requests) and Thursday (713 requests), reflecting bridge-weekend leave behavior, with Friday also carrying the highest active leave load (20.36% of all non-maternity leave days)."
+  },
+  {
+    "chart_id": "04_leave_type_breakdown",
+    "chart_title": "Leave Consumption and Approval Mix by Leave Type",
+    "description": "Breakdown of 3,441 leave requests across 6 statutory and company categories.",
+    "leave_types": [
+      {
+        "leave_type_code": "EL",
+        "leave_type_name": "Earned (Privilege) Leave",
+        "pay_type": "Paid",
+        "total_requests": 1266,
+        "total_days": 2613.0,
+        "approved_days": 2336.0,
+        "approved_requests": 1130,
+        "approval_rate_pct": 89.3
+      },
+      {
+        "leave_type_code": "CL",
+        "leave_type_name": "Casual Leave",
+        "pay_type": "Paid",
+        "total_requests": 1082,
+        "total_days": 2226.0,
+        "approved_days": 1995.0,
+        "approved_requests": 977,
+        "approval_rate_pct": 90.3
+      },
+      {
+        "leave_type_code": "SL",
+        "leave_type_name": "Sick Leave",
+        "pay_type": "Paid",
+        "total_requests": 933,
+        "total_days": 1962.0,
+        "approved_days": 1769.0,
+        "approved_requests": 836,
+        "approval_rate_pct": 89.6
+      },
+      {
+        "leave_type_code": "ML",
+        "leave_type_name": "Maternity Leave",
+        "pay_type": "Paid",
+        "total_requests": 7,
+        "total_days": 910.0,
+        "approved_days": 910.0,
+        "approved_requests": 7,
+        "approval_rate_pct": 100.0
+      },
+      {
+        "leave_type_code": "BL",
+        "leave_type_name": "Bereavement Leave",
+        "pay_type": "Paid",
+        "total_requests": 92,
+        "total_days": 153.0,
+        "approved_days": 137.0,
+        "approved_requests": 80,
+        "approval_rate_pct": 87.0
+      },
+      {
+        "leave_type_code": "LOP",
+        "leave_type_name": "Loss of Pay",
+        "pay_type": "Unpaid",
+        "total_requests": 61,
+        "total_days": 135.0,
+        "approved_days": 129.0,
+        "approved_requests": 58,
+        "approval_rate_pct": 95.1
+      }
+    ],
+    "status_breakdown": [
+      {
+        "leave_type_code": "BL",
+        "leave_type_name": "Bereavement Leave",
+        "pay_type": "Paid",
+        "status": "Approved",
+        "total_requests": 80,
+        "total_days": 137.0
+      },
+      {
+        "leave_type_code": "BL",
+        "leave_type_name": "Bereavement Leave",
+        "pay_type": "Paid",
+        "status": "Cancelled",
+        "total_requests": 6,
+        "total_days": 9.0
+      },
+      {
+        "leave_type_code": "BL",
+        "leave_type_name": "Bereavement Leave",
+        "pay_type": "Paid",
+        "status": "Rejected",
+        "total_requests": 6,
+        "total_days": 7.0
+      },
+      {
+        "leave_type_code": "CL",
+        "leave_type_name": "Casual Leave",
+        "pay_type": "Paid",
+        "status": "Approved",
+        "total_requests": 977,
+        "total_days": 1995.0
+      },
+      {
+        "leave_type_code": "CL",
+        "leave_type_name": "Casual Leave",
+        "pay_type": "Paid",
+        "status": "Cancelled",
+        "total_requests": 32,
+        "total_days": 66.0
+      },
+      {
+        "leave_type_code": "CL",
+        "leave_type_name": "Casual Leave",
+        "pay_type": "Paid",
+        "status": "Pending",
+        "total_requests": 9,
+        "total_days": 25.0
+      },
+      {
+        "leave_type_code": "CL",
+        "leave_type_name": "Casual Leave",
+        "pay_type": "Paid",
+        "status": "Rejected",
+        "total_requests": 64,
+        "total_days": 140.0
+      },
+      {
+        "leave_type_code": "EL",
+        "leave_type_name": "Earned (Privilege) Leave",
+        "pay_type": "Paid",
+        "status": "Approved",
+        "total_requests": 1130,
+        "total_days": 2336.0
+      },
+      {
+        "leave_type_code": "EL",
+        "leave_type_name": "Earned (Privilege) Leave",
+        "pay_type": "Paid",
+        "status": "Cancelled",
+        "total_requests": 39,
+        "total_days": 89.0
+      },
+      {
+        "leave_type_code": "EL",
+        "leave_type_name": "Earned (Privilege) Leave",
+        "pay_type": "Paid",
+        "status": "Pending",
+        "total_requests": 17,
+        "total_days": 30.0
+      },
+      {
+        "leave_type_code": "EL",
+        "leave_type_name": "Earned (Privilege) Leave",
+        "pay_type": "Paid",
+        "status": "Rejected",
+        "total_requests": 80,
+        "total_days": 158.0
+      },
+      {
+        "leave_type_code": "LOP",
+        "leave_type_name": "Loss of Pay",
+        "pay_type": "Unpaid",
+        "status": "Approved",
+        "total_requests": 58,
+        "total_days": 129.0
+      },
+      {
+        "leave_type_code": "LOP",
+        "leave_type_name": "Loss of Pay",
+        "pay_type": "Unpaid",
+        "status": "Cancelled",
+        "total_requests": 1,
+        "total_days": 2.0
+      },
+      {
+        "leave_type_code": "LOP",
+        "leave_type_name": "Loss of Pay",
+        "pay_type": "Unpaid",
+        "status": "Rejected",
+        "total_requests": 2,
+        "total_days": 4.0
+      },
+      {
+        "leave_type_code": "ML",
+        "leave_type_name": "Maternity Leave",
+        "pay_type": "Paid",
+        "status": "Approved",
+        "total_requests": 7,
+        "total_days": 910.0
+      },
+      {
+        "leave_type_code": "SL",
+        "leave_type_name": "Sick Leave",
+        "pay_type": "Paid",
+        "status": "Approved",
+        "total_requests": 836,
+        "total_days": 1769.0
+      },
+      {
+        "leave_type_code": "SL",
+        "leave_type_name": "Sick Leave",
+        "pay_type": "Paid",
+        "status": "Cancelled",
+        "total_requests": 31,
+        "total_days": 57.0
+      },
+      {
+        "leave_type_code": "SL",
+        "leave_type_name": "Sick Leave",
+        "pay_type": "Paid",
+        "status": "Pending",
+        "total_requests": 8,
+        "total_days": 11.0
+      },
+      {
+        "leave_type_code": "SL",
+        "leave_type_name": "Sick Leave",
+        "pay_type": "Paid",
+        "status": "Rejected",
+        "total_requests": 58,
+        "total_days": 125.0
+      }
+    ],
+    "takeaway": "Earned Leave (EL) accounts for 2,613 total days (89.4% approved), followed by Casual Leave (CL, 2,226 days) and Sick Leave (SL, 1,962 days); Maternity Leave (ML) represents long-tail statutory leave with 910 approved days across 7 employees."
+  },
+  {
+    "chart_id": "05_late_arrivals_trend",
+    "chart_title": "Monthly Late Arrivals Volume and Rate",
+    "series": {
+      "months": [
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12",
+        "2026-01",
+        "2026-02",
+        "2026-03",
+        "2026-04",
+        "2026-05",
+        "2026-06",
+        "2026-07",
+        "2026-08",
+        "2026-09"
+      ],
+      "late_arrivals": [
+        468,
+        497,
+        534,
+        556,
+        489,
+        568,
+        537,
+        495,
+        573,
+        489,
+        519,
+        583,
+        518,
+        476,
+        537,
+        611,
+        569,
+        618
+      ],
+      "late_arrival_rate_pct": [
+        6.51,
+        6.68,
+        7.03,
+        6.56,
+        6.94,
+        6.87,
+        7.27,
+        6.7,
+        7.02,
+        6.91,
+        6.75,
+        7.53,
+        6.8,
+        6.3,
+        6.36,
+        6.76,
+        6.77,
+        7.14
+      ]
+    },
+    "highest_late_month": {
+      "month": "2026-03",
+      "late_count": 583,
+      "late_rate_pct": 7.53
+    },
+    "lowest_late_month": {
+      "month": "2026-05",
+      "late_count": 476,
+      "late_rate_pct": 6.3
+    },
+    "takeaway": "Late arrivals averaged 538 per month company-wide (6.85% late arrival rate), spiking in March 2026 (7.53%) and October 2025 (7.27%), driven by shift coordination in Operations & IT and Customer Support."
+  },
+  {
+    "chart_id": "06_ai_anomaly_distribution",
+    "chart_title": "AI/ML Anomaly Sample Overlay & Reason Code Mix",
+    "total_attendance_anomalies": 221,
+    "reason_codes": [
+      {
+        "reason_code": "PATTERN_SHIFT",
+        "count": 125,
+        "avg_score": 0.661,
+        "pct_share": 56.6
+      },
+      {
+        "reason_code": "NO_ATTENDANCE",
+        "count": 50,
+        "avg_score": 0.887,
+        "pct_share": 22.6
+      },
+      {
+        "reason_code": "LONG_UNPAID_ABSENCE",
+        "count": 43,
+        "avg_score": 0.818,
+        "pct_share": 19.5
+      },
+      {
+        "reason_code": "FREQUENT_LATE",
+        "count": 3,
+        "avg_score": 0.6,
+        "pct_share": 1.4
+      }
+    ],
+    "department_distribution": [
+      {
+        "department_id": "D01",
+        "department_name": "Engineering",
+        "anomaly_count": 63,
+        "avg_score": 0.717
+      },
+      {
+        "department_id": "D06",
+        "department_name": "Customer Support",
+        "anomaly_count": 48,
+        "avg_score": 0.757
+      },
+      {
+        "department_id": "D02",
+        "department_name": "Product & Design",
+        "anomaly_count": 23,
+        "avg_score": 0.77
+      },
+      {
+        "department_id": "D07",
+        "department_name": "Human Resources",
+        "anomaly_count": 19,
+        "avg_score": 0.743
+      },
+      {
+        "department_id": "D08",
+        "department_name": "Finance & Accounts",
+        "anomaly_count": 19,
+        "avg_score": 0.743
+      },
+      {
+        "department_id": "D09",
+        "department_name": "Operations & IT",
+        "anomaly_count": 15,
+        "avg_score": 0.694
+      },
+      {
+        "department_id": "D03",
+        "department_name": "Data & AI",
+        "anomaly_count": 13,
+        "avg_score": 0.769
+      },
+      {
+        "department_id": "D04",
+        "department_name": "Sales",
+        "anomaly_count": 12,
+        "avg_score": 0.731
+      },
+      {
+        "department_id": "D10",
+        "department_name": "Legal & Compliance",
+        "anomaly_count": 7,
+        "avg_score": 0.809
+      },
+      {
+        "department_id": "D05",
+        "department_name": "Marketing",
+        "anomaly_count": 2,
+        "avg_score": 0.842
+      }
+    ],
+    "monthly_trend": [
+      {
+        "year_month": "2025-04",
+        "ai_anomaly_count": 12,
+        "avg_anomaly_score": 0.71
+      },
+      {
+        "year_month": "2025-05",
+        "ai_anomaly_count": 7,
+        "avg_anomaly_score": 0.651
+      },
+      {
+        "year_month": "2025-06",
+        "ai_anomaly_count": 8,
+        "avg_anomaly_score": 0.678
+      },
+      {
+        "year_month": "2025-07",
+        "ai_anomaly_count": 12,
+        "avg_anomaly_score": 0.714
+      },
+      {
+        "year_month": "2025-08",
+        "ai_anomaly_count": 10,
+        "avg_anomaly_score": 0.708
+      },
+      {
+        "year_month": "2025-09",
+        "ai_anomaly_count": 10,
+        "avg_anomaly_score": 0.745
+      },
+      {
+        "year_month": "2025-10",
+        "ai_anomaly_count": 11,
+        "avg_anomaly_score": 0.805
+      },
+      {
+        "year_month": "2025-11",
+        "ai_anomaly_count": 14,
+        "avg_anomaly_score": 0.724
+      },
+      {
+        "year_month": "2025-12",
+        "ai_anomaly_count": 14,
+        "avg_anomaly_score": 0.753
+      },
+      {
+        "year_month": "2026-01",
+        "ai_anomaly_count": 13,
+        "avg_anomaly_score": 0.758
+      },
+      {
+        "year_month": "2026-02",
+        "ai_anomaly_count": 13,
+        "avg_anomaly_score": 0.724
+      },
+      {
+        "year_month": "2026-03",
+        "ai_anomaly_count": 14,
+        "avg_anomaly_score": 0.737
+      },
+      {
+        "year_month": "2026-04",
+        "ai_anomaly_count": 7,
+        "avg_anomaly_score": 0.753
+      },
+      {
+        "year_month": "2026-05",
+        "ai_anomaly_count": 16,
+        "avg_anomaly_score": 0.7
+      },
+      {
+        "year_month": "2026-06",
+        "ai_anomaly_count": 17,
+        "avg_anomaly_score": 0.769
+      },
+      {
+        "year_month": "2026-07",
+        "ai_anomaly_count": 22,
+        "avg_anomaly_score": 0.751
+      },
+      {
+        "year_month": "2026-08",
+        "ai_anomaly_count": 11,
+        "avg_anomaly_score": 0.821
+      },
+      {
+        "year_month": "2026-09",
+        "ai_anomaly_count": 10,
+        "avg_anomaly_score": 0.814
+      }
+    ],
+    "takeaway": "The AI model flagged 221 attendance anomaly instances (peaking in July 2026 with 22 flags); 56.6% represent PATTERN_SHIFT (sudden drop in habitual presence), 22.6% NO_ATTENDANCE (zero days logged), and 19.5% LONG_UNPAID_ABSENCE."
+  },
+  {
+    "chart_id": "07_seasonal_decomposition",
+    "chart_title": "Time-Series Decomposition of Attendance Rate (Statsmodels)",
+    "method": "Additive Seasonal Decomposition (Period=6)",
+    "components": [
+      {
+        "year_month": "2025-04",
+        "observed": 94.58,
+        "trend": 95.26,
+        "seasonal": -0.54,
+        "residual": -0.15
+      },
+      {
+        "year_month": "2025-05",
+        "observed": 93.46,
+        "trend": 95.11,
+        "seasonal": -0.9,
+        "residual": -0.76
+      },
+      {
+        "year_month": "2025-06",
+        "observed": 94.52,
+        "trend": 94.96,
+        "seasonal": -0.42,
+        "residual": -0.02
+      },
+      {
+        "year_month": "2025-07",
+        "observed": 95.51,
+        "trend": 94.69,
+        "seasonal": 0.25,
+        "residual": 0.57
+      },
+      {
+        "year_month": "2025-08",
+        "observed": 94.95,
+        "trend": 94.68,
+        "seasonal": 0.46,
+        "residual": -0.2
+      },
+      {
+        "year_month": "2025-09",
+        "observed": 95.48,
+        "trend": 94.66,
+        "seasonal": 1.14,
+        "residual": -0.32
+      },
+      {
+        "year_month": "2025-10",
+        "observed": 93.88,
+        "trend": 94.41,
+        "seasonal": -0.54,
+        "residual": 0.0
+      },
+      {
+        "year_month": "2025-11",
+        "observed": 94.05,
+        "trend": 94.16,
+        "seasonal": -0.9,
+        "residual": 0.79
+      },
+      {
+        "year_month": "2025-12",
+        "observed": 93.71,
+        "trend": 94.0,
+        "seasonal": -0.42,
+        "residual": 0.13
+      },
+      {
+        "year_month": "2026-01",
+        "observed": 93.29,
+        "trend": 93.87,
+        "seasonal": 0.25,
+        "residual": -0.84
+      },
+      {
+        "year_month": "2026-02",
+        "observed": 94.12,
+        "trend": 93.73,
+        "seasonal": 0.46,
+        "residual": -0.08
+      },
+      {
+        "year_month": "2026-03",
+        "observed": 94.46,
+        "trend": 93.61,
+        "seasonal": 1.14,
+        "residual": -0.28
+      },
+      {
+        "year_month": "2026-04",
+        "observed": 93.35,
+        "trend": 93.65,
+        "seasonal": -0.54,
+        "residual": 0.24
+      },
+      {
+        "year_month": "2026-05",
+        "observed": 92.89,
+        "trend": 93.73,
+        "seasonal": -0.9,
+        "residual": 0.06
+      },
+      {
+        "year_month": "2026-06",
+        "observed": 93.37,
+        "trend": 93.8,
+        "seasonal": -0.42,
+        "residual": -0.01
+      },
+      {
+        "year_month": "2026-07",
+        "observed": 94.1,
+        "trend": 93.48,
+        "seasonal": 0.25,
+        "residual": 0.36
+      },
+      {
+        "year_month": "2026-08",
+        "observed": 94.25,
+        "trend": 93.42,
+        "seasonal": 0.46,
+        "residual": 0.37
+      },
+      {
+        "year_month": "2026-09",
+        "observed": 95.19,
+        "trend": 93.36,
+        "seasonal": 1.14,
+        "residual": 0.7
+      }
+    ],
+    "takeaway": "Decomposition reveals a downward trend from Q3 2025 through Q2 2026 (-1.7% drift) superimposed on seasonal dips in festival/holiday periods (Oct/Dec) and annual leave exhaustion, before a structural rebound in Q3 2026."
+  },
+  {
+    "chart_id": "08_kpi_summary_cards",
+    "kpis": [
+      {
+        "kpi_id": "attendance_rate",
+        "label": "Average Attendance Rate",
+        "value": "94.19%",
+        "subtext": "Scheduled: 151,197 days | Present: 141,643 days",
+        "trend": "+0.94% MoM (Sep 2026)",
+        "status": "healthy"
+      },
+      {
+        "kpi_id": "late_arrivals",
+        "label": "Total Late Arrivals",
+        "value": "9,637",
+        "subtext": "Late Rate: 6.83% of present days",
+        "trend": "Peak: 7.53% (Mar 2026)",
+        "status": "warning"
+      },
+      {
+        "kpi_id": "approved_leave_days",
+        "label": "Approved Leave Days",
+        "value": "7,276",
+        "subtext": "3,088 approved requests (89.1% approval rate)",
+        "trend": "EL + CL = 57.7% of days",
+        "status": "neutral"
+      },
+      {
+        "kpi_id": "ai_flagged_anomalies",
+        "label": "AI Attendance Anomalies",
+        "value": "221",
+        "subtext": "Avg Anomaly Score: 0.72 | 221 employee-months",
+        "trend": "56.6% Pattern Shifts",
+        "status": "alert"
+      }
+    ]
+  }
+]

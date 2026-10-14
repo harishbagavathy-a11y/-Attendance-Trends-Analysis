@@ -1,0 +1,17 @@
+{
+  "filter_id": "anomaly_toggle_filter",
+  "filter_name": "AI Anomaly Overlay Control",
+  "type": "toggle_and_slider",
+  "show_anomalies_default": true,
+  "default_score_threshold": 0.50,
+  "min_score": 0.0,
+  "max_score": 1.0,
+  "reason_code_filter": [
+    { "value": "ALL", "label": "All Reason Codes" },
+    { "value": "PATTERN_SHIFT", "label": "Pattern Shift (56.6% — Sudden habitual change)" },
+    { "value": "NO_ATTENDANCE", "label": "Zero Attendance (22.6% — Full month absence)" },
+    { "value": "LONG_UNPAID_ABSENCE", "label": "Long Unpaid Absence (19.5% — High LOP)" },
+    { "value": "FREQUENT_LATE", "label": "Frequent Late Arrivals (1.4% — Habitual tardiness)" }
+  ],
+  "description": "Controls whether AI anomaly markers, callouts, and scatter points appear across attendance and department charts."
+}

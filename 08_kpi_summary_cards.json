@@ -1,0 +1,37 @@
+{
+  "chart_id": "08_kpi_summary_cards",
+  "kpis": [
+    {
+      "kpi_id": "attendance_rate",
+      "label": "Average Attendance Rate",
+      "value": "94.19%",
+      "subtext": "Scheduled: 151,197 days | Present: 141,643 days",
+      "trend": "+0.94% MoM (Sep 2026)",
+      "status": "healthy"
+    },
+    {
+      "kpi_id": "late_arrivals",
+      "label": "Total Late Arrivals",
+      "value": "9,637",
+      "subtext": "Late Rate: 6.83% of present days",
+      "trend": "Peak: 7.53% (Mar 2026)",
+      "status": "warning"
+    },
+    {
+      "kpi_id": "approved_leave_days",
+      "label": "Approved Leave Days",
+      "value": "7,276",
+      "subtext": "3,088 approved requests (89.1% approval rate)",
+      "trend": "EL + CL = 57.7% of days",
+      "status": "neutral"
+    },
+    {
+      "kpi_id": "ai_flagged_anomalies",
+      "label": "AI Attendance Anomalies",
+      "value": "221",
+      "subtext": "Avg Anomaly Score: 0.72 | 221 employee-months",
+      "trend": "56.6% Pattern Shifts",
+      "status": "alert"
+    }
+  ]
+}
